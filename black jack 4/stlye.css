@@ -1,0 +1,12 @@
+body{
+    margin:0;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+  background: linear-gradient(rgb(184, 184, 255),rgb(119, 143, 252),rgb(251, 174, 251));
+    font-family:Arial,sans-serif;
+
+}
+

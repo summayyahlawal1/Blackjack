@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator </title>
+    <link rel="stylesheet" href="stle.css">
+</head>
+<body>
+
+<div class="box">
+    <input id="display" readonly>
+    <div class="buttons">
+        <button class="o" onclick="op('+')"> + </button>
+        <button onclick="op('7')">7</button>
+        <button onclick="op('8')">8</button>
+        <button onclick="op('9')">9</button>
+
+        <button class="o" onclick="op('-')">-</button>
+        <button onclick="op('4')">4</button>
+        <button onclick="op('5')">5</button>
+        <button onclick="op('6')">6</button>
+
+        <button class="o" onclick="op('*')">*</button>
+        <button onclick="op('1')">1</button>
+        <button onclick="op('2')">2</button>
+        <button onclick="op('3')">3</button>
+
+        <button class="o" onclick="op('/')">/</button>
+        <button onclick="op('0')">0</button>
+        <button onclick="op('.')">.</button>
+        <button onclick="calculate('=')">=</button>
+
+        <button class="o"onclick="clearDisplay()">C</button>
+    </div>
+
+</div>
+<script src="./main.js"></script>
+</body>
+</html>
